@@ -1,0 +1,33 @@
+.clock-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.clock-form input,
+button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 3px 0px grey;
+}
+
+.clock-form button {
+    cursor: pointer;
+}
+
+.clock-form button:hover {
+    box-shadow: 0 0 3px 1px #646464;
+}
+
+.clocks-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}

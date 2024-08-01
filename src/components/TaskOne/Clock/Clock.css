@@ -1,0 +1,46 @@
+.clock-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clock-name {
+    font-size: 1.2em;
+    margin-bottom: 0.2em;
+    margin-top: 0.5em;
+}
+
+.clock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid red;
+    border-radius: 5px;
+    width: 250px;
+    height: 50px;
+}
+
+.clock-btn-remove {
+    position: relative;
+    background-color: rgb(255, 164, 164);
+    color: white;
+    border: none;
+    cursor: pointer;
+    left: 100px;
+    top: 10px;
+}
+
+.clock-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.5em;
+}
+
+.digital-clock {
+    position: relative;
+    top: -30px;
+    left: -20px;
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+}
